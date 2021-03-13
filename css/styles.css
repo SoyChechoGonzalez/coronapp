@@ -1,0 +1,116 @@
+/*Raleway*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*Rubik*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  font-family: "Rubik", sans-serif;
+  --header-height: 3rem;
+
+  /*======Colors======*/
+  --first-color: #1d957f;
+  --grey10: #616161;
+  --dark-color-alt: #282b3a;
+  --white-color: #e6e7e9;
+
+  /*======Fuentes y Tipografias======*/
+  /*--body-font: */
+  --main-color: #1d957f;
+  --second-color: #000;
+  --font-primary: "Raleway", sans-serif;
+  --font-second: "Rubik", sans-serif;
+}
+.green {
+  background-color: var(--main-color);
+}
+.content {
+  position: relative;
+  /*background-color: red;*/
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+header {
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  margin-left: 2rem;
+}
+.header__toggle {
+  font-size: 1.5rem;
+  color: var(--second-color);
+  cursor: pointer;
+}
+
+header nav {
+  position: relative;
+  right: 23.75rem;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  padding: 2.4rem;
+}
+
+header nav ul li a {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  display: block;
+}
+.rectangle {
+  position: absolute;
+  width: 295.29px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  border-radius: 2rem 0 0 2rem;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero article h1 {
+  font-size: 2.75rem;
+  line-height: 3.465rem;
+  font-family: var(--font-second);
+  font-weight: 700;
+}
+.hero article h1 span {
+  color: var(--main-color);
+  /*line-height: 55.44px;*/
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 31rem;
+  height: 13.8rem;
+  /*background-color: red;*/
+}
+.hero__text p {
+  font-family: var(--font-second);
+  color: var(--grey10);
+  margin: 0.68rem 0;
+}
+button {
+  border: none;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: var(--font-primary);
+  /*margin-top: 0.68rem;*/
+}
